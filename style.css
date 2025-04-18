@@ -6,14 +6,15 @@ body {
 
 .letter-container {
     position: relative;
-    width: 600px;
-    height: 400px;
-    background: url('https://i.pinimg.com/736x/77/ae/1e/77ae1e84d948d9f24c81c131fcc8ebe6.jpg') no-repeat center center;
+    width: 400px; /* Portrait width */
+    height: 600px; /* Portrait height */
+    background: url('vintage-paper-background.jpg') no-repeat center center;
     background-size: cover;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
     margin: 50px auto;
+    overflow: hidden; /* Prevents overflow */
 }
 
 .wax-seal {
@@ -23,16 +24,22 @@ body {
     left: 20px;
 }
 
+.wax-seal img {
+    width: 50px; /* Adjust this value as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.letter-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hidden {
     display: none;
 }
 
-textarea {
-    width: 100%;
-    height: 100px;
-    margin-top: 20px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    font-family: 'Georgia', serif;
+p {
+    margin: 20px 0; /* Add some margin for spacing */
+    text-align: left; /* Align text to the left */
 }
