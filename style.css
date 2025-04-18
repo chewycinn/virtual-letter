@@ -6,9 +6,9 @@ body {
 
 .letter-container {
     position: relative;
-    width: 500px; /* Width of the envelope */
-    height: 500px; /* Increased height of the envelope */
-    background: url('vintage-paper-background.jpg') no-repeat center center;
+    width: 450px; /* Width of the envelope */
+    height: 700px; /* Increased height of the envelope */
+    background: url('https://i.pinimg.com/736x/77/ae/1e/77ae1e84d948d9f24c81c131fcc8ebe6.jpg') no-repeat center center;
     background-size: cover;
     border: 1px solid #ccc;
     border-radius: 10px;
