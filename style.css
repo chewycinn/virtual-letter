@@ -7,7 +7,7 @@ body {
 .letter-container {
     position: relative;
     width: 400px; /* Width of the envelope */
-    height: 250px; /* Height of the envelope */
+    height: 300px; /* Height of the envelope */
     background: url('vintage-paper-background.jpg') no-repeat center center;
     background-size: cover;
     border: 1px solid #ccc;
@@ -45,7 +45,8 @@ p {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     font-size: 14px; /* Adjust font size as needed */
-    line-height: 1.5; /* Adjust line height for better readability */
+    line-height: 1.4; /* Adjust line height for better readability */
     max-width: 100%; /* Ensure it doesn't overflow */
     overflow-wrap: break-word; /* Break long words if necessary */
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
 }
