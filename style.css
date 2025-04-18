@@ -6,8 +6,8 @@ body {
 
 .letter-container {
     position: relative;
-    width: 400px; /* Portrait width */
-    height: 600px; /* Portrait height */
+    width: 400px; /* Width of the envelope */
+    height: 250px; /* Height of the envelope */
     background: url('vintage-paper-background.jpg') no-repeat center center;
     background-size: cover;
     border: 1px solid #ccc;
@@ -15,13 +15,14 @@ body {
     padding: 20px;
     margin: 50px auto;
     overflow: hidden; /* Prevents overflow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
 }
 
 .wax-seal {
     cursor: pointer;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 10px; /* Adjust this value to position the seal */
+    left: 10px; /* Adjust this value to position the seal */
 }
 
 .wax-seal img {
