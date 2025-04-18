@@ -6,8 +6,8 @@ body {
 
 .letter-container {
     position: relative;
-    width: 700px; /* Width of the envelope */
-    height: 1000px; /* Increased height of the envelope */
+    width: 400px; /* Width of the envelope */
+    height: 500px; /* Increased height of the envelope */
     background: url('https://i.pinimg.com/736x/bf/0f/15/bf0f156954cc1cfdea16142d13a801a7.jpg') no-repeat center center;
     background-size: cover;
     border: 1px solid #ccc;
@@ -44,7 +44,7 @@ body {
 p {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
-    font-size: 12px; /* Adjust font size to fit the text */
+    font-size: 10px; /* Adjust font size to fit the text */
     line-height: 1; /* Adjust line height for better readability */
     max-width: 100%; /* Ensure it doesn't overflow */
     overflow-wrap: break-word; /* Break long words if necessary */
